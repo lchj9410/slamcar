@@ -1,0 +1,2 @@
+rosrun gmapping slam_gmapping scan:=scan _odom_frame:=odom _base_frame:=chassis _map_frame:=map
+# remember to "rosparam set use_sim_time true" if use gazebo

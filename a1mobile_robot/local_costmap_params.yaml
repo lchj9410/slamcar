@@ -1,0 +1,10 @@
+local_costmap:
+  global_frame: map
+  robot_base_frame: chassis
+  update_frequency: 10.0
+  publish_frequency: 10.0
+  rolling_window: true
+  width: 1.5
+  height: 1.5
+  resolution: 0.01
+  static_map: false
